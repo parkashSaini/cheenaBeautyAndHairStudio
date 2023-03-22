@@ -1,0 +1,8 @@
+div.homeMainBg {
+    width: 100%;
+    padding-top: 56.25%; /* This is the aspect ratio of 16:9 */
+    background-image: url('path/to/image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+      

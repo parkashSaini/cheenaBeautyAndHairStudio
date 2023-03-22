@@ -1,0 +1,12 @@
+.header {    
+    &:hover {
+        background-color: #fff !important;
+        color: #333; // dark brown color;
+        transition: background-color 1s;
+        transition-timing-function: ease-out;
+      }
+  }
+  
+  body{
+    background-color: #333;
+  }

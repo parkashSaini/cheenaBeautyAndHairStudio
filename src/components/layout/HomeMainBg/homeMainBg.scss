@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 div.homeMainBg {
     width: 100%;
-    padding-top: 56.25%; /* This is the aspect ratio of 16:9 */
-    background-image: url('path/to/image.jpg');
+    padding-top: 41.75%; /* This is the aspect ratio of 16:9 */
+    background-image: url('../../assets/app_bg.jpg');
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    background-position-y: 0px;
+    h1{
+        font-family: 'Satisfy', cursive;
+        color:#fff;
+        font-size: 3.9rem;
+    }
+    button{
+        color: #333;
+        font-size: 1.1rem;
+        font-weight: 500;
+        &:hover{
+            background-color: aqua !important;
+            color: #222;
+        }
+    }
+    &>div{
+        left: 23%;
+        top:55%;
+        transform: translate(-50%,-50%);
+    }
 }
       

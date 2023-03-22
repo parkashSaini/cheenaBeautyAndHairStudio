@@ -1,12 +1,20 @@
-.header {    
-    &:hover {
-        background-color: #fff !important;
-        color: #333; // dark brown color;
-        transition: background-color 1s;
-        transition-timing-function: ease-out;
+.header {  
+  nav{
+    color: #222;
+    a{
+      color: inherit !important;
+    }
+    background-color:transparent !important;
+    padding-left: 15px;
+    padding-right: 15px;
+   background: rgba(255,255,255,0.9);
+   .navbar-nav{
+    li{
+      a{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
       }
+    }
+   }
   }
-  
-  body{
-    background-color: #333;
-  }
+}
